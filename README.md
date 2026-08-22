@@ -1,113 +1,122 @@
-# Gr8Food Management System
+# 🍽️ Gr8Food Restaurant Management System
 
-A C# Windows Forms restaurant management system integrated with a SQL Server database. The system provides role-based functionality for customers, chefs, managers, and system administrators.
+A desktop-based restaurant management system built with **C# Windows Forms** and **Microsoft SQL Server**. The system provides role-based functionality for customers, chefs, managers, and administrators, covering the complete restaurant ordering and management workflow.
 
 ## 📌 Project Overview
 
-Gr8Food is a restaurant management system designed to manage the complete restaurant ordering workflow, from food browsing and customer orders to kitchen order processing, wallet transactions, feedback management, and administrative reporting.
+Gr8Food is designed to manage restaurant operations from customer food browsing and ordering to kitchen order processing, wallet transactions, feedback management, menu management, and administrative reporting.
 
-The project was developed using **C# Windows Forms** with **Microsoft SQL Server** for database management.
+The project demonstrates the use of **C#**, **Windows Forms**, **SQL Server**, database connectivity, CRUD operations, role-based access, and desktop UI design.
+
+## 🛠️ Tech Stack
+
+- **Language:** C#
+- **Framework:** Windows Forms
+- **Database:** Microsoft SQL Server
+- **IDE:** Visual Studio
+- **Database Connectivity:** ADO.NET / SqlClient
 
 ## ✨ Key Features
 
 ### 👤 Customer
 - User profile management
-- Browse restaurant menu
-- Search for food items
+- Browse food items
+- Search food by name
 - Add items to cart
 - Place orders
 - View order status
-- Wallet balance management
-- Wallet top-up functionality
-- Submit food/service feedback
-- Rate orders using a 1–5 star rating system
+- Wallet balance and top-up
+- Submit feedback
 
 ### 👨‍🍳 Chef
-- View incoming customer orders
-- View food items and quantities
+- View customer orders
+- Manage kitchen orders
 - Update order status
-- Track order progress
-- Refresh order information
 
-### 📊 Manager
-- View restaurant sales reports
-- Filter sales by month, year, and category
-- View wallet transactions
-- Filter wallet reports by customer and date
+### 👨‍💼 Manager
+- Manage menu items
+- Manage orders
 - Manage customer feedback
-- Reply to customer feedback
-- Monitor order and restaurant activity
+- View sales information
+- Access management reports
 
-### 🛠️ System Administrator
-- Manage users
-- Add, edit and manage menu items
-- Manage system information
-- View sales reports
-- Monitor restaurant operations
+### 🛡️ System Administrator
+- Manage system users
+- Manage user roles
+- Manage restaurant menu
+- Access sales reports
+- Monitor wallet transactions
+- Manage feedback
 
-## 🧰 Technologies Used
+## 📊 Management & Reporting
 
-- **C#**
-- **.NET / Windows Forms**
-- **Microsoft SQL Server**
-- **SQL**
-- **Visual Studio**
-- **ADO.NET**
-- **Git & GitHub**
+The system includes several management features:
 
-## 🗄️ Database
-
-The application uses Microsoft SQL Server for persistent data storage.
-
-Major database entities include:
-
-- Users
-- Menu
-- Orders
-- OrderDetails
-- Feedback
-- WalletTransactions
-- Cart
-
-The application uses SQL queries and ADO.NET to perform database operations such as:
-
-- CRUD operations
-- Order management
+- Sales reporting
+- Wallet transaction reporting
 - User management
+- Menu management
 - Feedback management
-- Wallet transactions
-- Filtering and reporting
+- Order management
+- Order status tracking
 
-## 🏗️ System Architecture
+## 🖥️ Screenshots
 
-The project separates database operations and application functionality into dedicated classes and forms.
+### Login Page
+![Login Page](screenshots/login-page.png)
 
-Example structure:
+### Customer Dashboard
+![Customer Dashboard](screenshots/Customer-Dashboard.png)
+
+### Menu
+![Menu](screenshots/menu.png)
+
+### Cart
+![Cart](screenshots/Cart.png)
+
+### View Orders
+![View Orders](screenshots/View-Orders.png)
+
+### Order Status
+![Order Status](screenshots/order-status.png)
+
+### Wallet Report
+![Wallet Report](screenshots/wallet-report.png)
+
+### Customer Feedback
+![Customer Feedback](screenshots/customer-feedback.png)
+
+### Profile Page
+![Profile Page](screenshots/Profile-page.png)
+
+### Chef Dashboard
+![Chef Dashboard](screenshots/chef-dashboard.png)
+
+### Manager Dashboard
+![Manager Dashboard](screenshots/Manager-dashboard)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/Admin-Dashboard.png)
+
+### Manage Menu
+![Manage Menu](screenshots/manage-menu.png)
+
+### Manage Users
+![Manage Users](screenshots/manage-users.png)
+
+### Sales Report
+![Sales Report](screenshots/Sales-Report.png)
+
+## 🗂️ Project Structure
 
 ```text
-Gr8Food
+Gr8Food-Restaurant-Management-System/
 │
-├── Customer
-│   ├── Customer Dashboard
-│   ├── Menu
-│   ├── Cart
-│   ├── Order Status
-│   └── Feedback
-│
-├── Chef
-│   └── Order Management
-│
-├── Manager
-│   ├── Sales Report
-│   ├── Wallet Report
-│   └── Feedback Management
-│
-├── Administrator
-│   ├── User Management
-│   └── Menu Management
-│
-├── Database
-│   └── SQL Server / ADO.NET
-│
-└── Resources
-    └── Application UI resources
+├── Gr8Food_Submission/
+├── Manager/
+├── Properties/
+├── Resources/
+├── screenshots/
+├── .gitignore
+├── Gr8Food.sln
+└── Gr8Food management system.csproj
