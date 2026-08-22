@@ -84,7 +84,7 @@ The system includes several management features:
 ![Wallet Report](screenshots/wallet-report.png)
 
 ### Customer Feedback
-![Customer Feedback](screenshots/customer-feedback.png)
+![Customer Feedback](screenshots/Customer-Feedback.png)
 
 ### Profile Page
 ![Profile Page](screenshots/Profile-page.png)
