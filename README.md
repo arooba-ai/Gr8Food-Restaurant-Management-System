@@ -107,6 +107,9 @@ The system includes several management features:
 ### Sales Report
 ![Sales Report](screenshots/Sales-Report.png)
 
+### Feedback Management — Manager View
+![Feedback Management Manager View](screenshots/customer-feedback(manager).png)
+
 ## 🗂️ Project Structure
 
 ```text
